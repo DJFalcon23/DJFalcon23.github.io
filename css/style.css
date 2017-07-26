@@ -27,6 +27,19 @@ body {
 	
 }
 
+#mainPic{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+#WiP{
+	background: rgba(0,0,0,.6);
+	position: absolute;
+	font-size: 200%
+}
+
 div[class="col-md-6"] > img {
 	filter: blur(2px);
 	filter: saturate(0.4)
