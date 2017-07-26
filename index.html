@@ -6,6 +6,7 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,500" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="http://code.jquery.com/jquery-3.2.1.slim.js" integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="/jquery-3.2.1.js"></script>
 	<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
 </head>
@@ -17,12 +18,11 @@
 			<div class="col-md-6 text-right text-uppercase text-thin">
 				<h1 class="text-thin">Derek Fields</h1>
 				<h3>Front-end Developer, & Maker</h3>
-				<h3><span style="color: lightcoral">NOTE</span>:This site is still a work in progress.</h3>
-			</div>
-			<hr>
-		</div>
+				<h3><span style="color: lightcoral">NOTE</span>:This site is still a work in progress.</h3> </div>
+			<hr> </div>
 		<div class="row">
-			<div class="col-md-12" id="mainPic"> <h3 id="WiP" ><span style="color: lightcoral">NOTE</span>:This site is still a work in progress.</h3>  <img class="img-responsive" src="Assets/ProtfoiloSiteEditWorkingBmorehackathon_2017.jpg" alt="Derek working on hackathon project.">  </div>
+			<div class="col-md-12" id="mainPic">
+				<h3 id="WiP"><span style="color: lightcoral">NOTE</span>:This site is still a work in progress.</h3> <img class="img-responsive" src="Assets/ProtfoiloSiteEditWorkingBmorehackathon_2017.jpg" alt="Derek working on hackathon project."> </div>
 		</div>
 		<div class="row">
 			<div class="col-md-12 text-muted">
@@ -33,7 +33,7 @@
 				<h3>Resume</h3>
 				<p><a href="http://github.com">Link to project</a></p>
 			</div>
-			<div class="col-md-6"> <img class="img-responsive" src="Assets/LumiWay_Prototype.jpg" data-toggle="modal" data-target="#projects"> 
+			<div class="col-md-6"> <img class="img-responsive" src="Assets/LumiWay_Prototype.jpg" data-toggle="modal" data-target="#projects">
 				<h3 data-toggle="modal" data-target="#projects">Projects</h3>
 				<p><a href="http://github.com">Link to project</a></p>
 			</div>
@@ -50,40 +50,31 @@
 			</div>
 		</div>
 	</div>
-	
 	<!-- Modal -->
-    <div class="modal fade" id="projects" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-                </div>
-                <div class="modal-body">
-                    <img class="img-responsive" src="Assets/LumiWay_Prototype.jpg">
-                    This was my first project in this class. I learned a lot about HTML and CSS.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-	 <div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-                </div>
-                <div class="modal-body">
-                    <img class="img-responsive" src="Assets/LumiWay_Prototype.jpg">
-                    This was my first project in this class. I learned a lot about HTML and CSS.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="modal fade" id="projects" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Favorite App Page</h4> </div>
+				<div class="modal-body"> <img class="img-responsive" src="Assets/LumiWay_Prototype.jpg"> This was my first project in this class. I learned a lot about HTML and CSS. </div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Favorite App Page</h4> </div>
+				<div class="modal-body"> <img class="img-responsive" src="Assets/LumiWay_Prototype.jpg"> This was my first project in this class. I learned a lot about HTML and CSS. </div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>
