@@ -38,10 +38,16 @@
 			border-radius: 4px;
 		}
 		
-		img {
-			margin: 40px 0px 0px 0px;
-			border: 7px solid white;
-			border-radius: 20px;
+		#profile-pic {
+			border-radius: 15px 50px;
+			margin: 8px;
+			transition: width 2s;
+			/* Safari 3.1 to 6.0 */
+			-webkit-transition: border-radius .8s;
+		}
+		
+		#profile-pic:hover {
+			border-radius: 50px 15px;
 		}
 		
 		ul {
@@ -75,7 +81,7 @@
 </head>
 
 <body>
-	<header> <img src="Assets/ProtfolioProfilePic.jpg">
+	<header> <img  id="profile-pic" src="Assets/ProtfolioProfilePic.jpg">
 		<h1>Derek's Blog</h1>
 		<ul>
 			<li><a href="#">About Me</a></li>
