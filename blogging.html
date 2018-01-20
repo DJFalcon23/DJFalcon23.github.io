@@ -10,12 +10,18 @@
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<style>
+		body {
+			background-color:#808080;	
+		}
+		
+		
 		header {
 			text-align: center;
 			background: url('/Assets/Website_Development.jpg');
 			filter: sepia(78%);
 			background-size: cover;
 			color: seagreen;
+			text-shadow: 2px 2px 8px #8080ff;
 		}
 		
 		a {
@@ -26,10 +32,22 @@
 			font-size: 70px;
 		}
 		
-		img {
-			margin: 40px 0px 0px 0px;
-			border: 7px solid white;
-			border-radius: 20px;
+		button {
+			background-color: seagreen;
+			box-shadow: 2px 2px 8px #8080ff;
+			border-radius: 4px;
+		}
+		
+		#profile-pic {
+			border-radius: 15px 50px;
+			margin: 8px;
+			transition: width 2s;
+			/* Safari 3.1 to 6.0 */
+			-webkit-transition: border-radius .8s;
+		}
+		
+		#profile-pic:hover {
+			border-radius: 50px 15px;
 		}
 		
 		ul {
@@ -46,6 +64,7 @@
 			max-width: 650px;
 			padding: 20px;
 			margin: 0 auto;
+			background-color: #ffe6cc;
 		}
 		
 		@media (max-width: 600px) {
@@ -62,7 +81,7 @@
 </head>
 
 <body>
-	<header> <img src="Assets/ProtfolioProfilePic.jpg">
+	<header> <a href="http://Derekfields.is"><img  id="profile-pic" src="Assets/ProtfolioProfilePic.jpg"></a> 
 		<h1>Derek's Blog</h1>
 		<ul>
 			<li><a href="#">About Me</a></li>
@@ -73,21 +92,27 @@
 	<article>
 		<h2>VHS umami pop-up trust fund</h2>
 		<p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
-		<button>Like</button>
+		<button id="fake">Like</button>
 	</article>
 	<article>
 		<h2>Sartorial synth Echo Park, roof party</h2>
 		<p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
-		<button>Like</button>
+		<button id="really_really">Like</button>
 	</article>
 	<article>
 		<h2>Forage food truck keytar master cleanse</h2>
 		<p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic tacky sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
-		<button>Like</button>
+		<button id="Bruuuh_Chill">Like</button>
 	</article>
 	<script>
-		$("button").on("click", function () {
-			alert("Clicked!");
+		$("#fake").on("click", function () {
+			alert("Ha! This is just a fake 'like' button, they all are!");
+		});
+		$("#really_really").on("click", function () {
+			alert("No really these are all fake buttons. They don't do any but make THIS pop up. Move along.");
+		});
+		$("#Bruuuh_Chill").on("click", function () {
+			alert("Bruuuh! Chill. Are you insane?? YOU MUST BE! Check the source if you don't believe that these buttons ARE FAAAKE! Not to mention the nonsense text on this page..... ");
 		});
 	</script>
 </body>
