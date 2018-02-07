@@ -9,6 +9,53 @@ jumbotron{
 	background-color: white;
 }
 
+.inLeft{
+	position: relative;
+    -webkit-animation: fLeft 5s linear 2s; /* Safari 4.0 - 8.0 */
+    animation: fLeft 2s linear 2s;
+}
+
+@-webkit-keyframes fLeft {
+	from{
+		left: -650px;
+	}
+	to{
+		left: 0px;
+	}
+}
+
+@keyframes fLeft {
+	from{
+		left: -650px;
+	}
+	to{
+		left: 0px;
+	}
+}
+
+.inRight{
+	position: relative;
+    -webkit-animation: fRight 5s linear 2s; /* Safari 4.0 - 8.0 */
+    animation: fRight 2s linear 2s;
+}
+
+@-webkit-keyframes fRight {
+	from{
+		right: -650px;
+	}
+	to{
+		right: 0px;
+	}
+}
+
+@keyframes fRight {
+	from{
+		right: -650px;
+	}
+	to{
+		right: 0px;
+	}
+}
 
 #warp {
   width: 90%;
