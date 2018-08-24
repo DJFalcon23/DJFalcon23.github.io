@@ -35,6 +35,24 @@
 .topcarousel {
 	margin-top: -25px;
 }
+.overlay{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.blog {
+	padding-bottom: 20px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/blog_small.png");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	filter: grayscale(100%);
+	}
 .introtext h1 {
 	color: #77A29F;
 	font-weight: bold;
@@ -195,6 +213,13 @@ and (max-width: 480px) {
 	}
 	.blog {
 		padding-bottom: 20px;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+		height: 50%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		filter: grayscale(100%);
 	}
 }
 
