@@ -91,6 +91,7 @@ p {
 }
 .navbar a:hover {
 	background-color: #578DB8 !important;
+	border-radius: 6%;
 }
 .navbar-toggle {
 	background-color: #1F3E50 !important;
