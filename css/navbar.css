@@ -330,9 +330,9 @@ and (orientation: landscape) {
 	
 	#topnavbar img {
     		position: absolute;
-		top: -227px;
+		top: -213px;
 		transition: top 1s;
-		left: 67px;
+		left: -370px;
 		width: 10%;
 	}
 	
