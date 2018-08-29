@@ -97,7 +97,7 @@ p {
 }
 .navbar .navbar-nav {
 	display: inline-block;
-	float: none;
+	/*float: none;*/
 	vertical-align: top;
 	text-align: center !important;
 }
