@@ -191,6 +191,18 @@ p {
 		background-color: #1F3E50;
 		border: none;
 	}
+	
+	#topnavbar img {
+    		position: absolute;
+    		top: -86px;
+		transition: top 1s;
+	}
+	
+	#topnavbar.affix img {
+	   	left: 135px;
+		top: -86px;
+}
+	
 	.contactnumber {
 		font-size: 15px;
 		font-family: Arial, Helvetica, sans-serif;
