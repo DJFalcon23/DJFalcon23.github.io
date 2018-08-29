@@ -60,9 +60,6 @@ p {
 	width: 100%;
 }
 
-#topnavbar.affix img {
-	right: 30px; 
-}
 
 .contactnumber {
 	font-weight: bold;
@@ -79,10 +76,17 @@ p {
 /* NAVBAR */
 
 #topnavbar img {
-	
 	position: absolute;
     	top: -86px;
-	transition: right 2s;
+    	transition: top 1s;
+    	eleft: 213px;
+}
+}
+
+#topnavbar.affix img {
+	left: 135px;
+    	width: 10%;
+    	top: -65px;
 }
 
 .navbar {
