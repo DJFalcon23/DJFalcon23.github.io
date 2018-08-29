@@ -26,9 +26,7 @@ p {
 
 /* TOP BANNER STYLING */
 
-#top-banner img {
-	padding-top: 1%;
-}
+
 
 #top-banner h1 {
 	color: #97b8cc;
@@ -75,6 +73,12 @@ p {
 
 
 /* NAVBAR */
+
+#topnavbar img {
+	
+	position: absolute;
+    	top: -20px;
+}
 
 .navbar {
 	background-color: #1F3E50 !important;
