@@ -198,13 +198,15 @@ p {
 	
 	#topnavbar img {
     		position: absolute;
-    		top: -86px;
+		top: -227px;
 		transition: top 1s;
+		left: 67px;
+		width: 10%;
 	}
 	
 	#topnavbar.affix img {
-	   	left: 135px;
-		top: -86px;
+	   	left: 67px;
+	        top: -226px;
 }
 	
 	.contactnumber {
@@ -235,6 +237,20 @@ and (max-width: 1024px) {
 		color: #ABBFFC;
 		text-align: right;
 	}
+	
+	#topnavbar img {
+    		position: absolute;
+		top: -227px;
+		transition: top 1s;
+		left: 67px;
+		width: 10%;
+	}
+	
+	#topnavbar.affix img {
+	   	left: 67px;
+	        top: -226px;
+	}
+	
 	.navbar-nav {
 		position: relative;
 		right: 0px !important;
@@ -311,6 +327,20 @@ and (orientation: landscape) {
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
+	
+	#topnavbar img {
+    		position: absolute;
+		top: -227px;
+		transition: top 1s;
+		left: 67px;
+		width: 10%;
+	}
+	
+	#topnavbar.affix img {
+	   	left: 67px;
+	        top: -226px;
+	}
+	
 	.collapse.in {
 		display: block !important;
 	}
