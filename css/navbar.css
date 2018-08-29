@@ -2,6 +2,7 @@ p {
 	padding: 0;
 	margin: 0;
 }
+
 .row {
 	padding: 0;
 	margin: 0;
@@ -28,6 +29,7 @@ p {
 #top-banner img {
 	padding-top: 1%;
 }
+
 #top-banner h1 {
 	color: #97b8cc;
 	font-weight: bold;
@@ -37,20 +39,28 @@ p {
 	top: -3px;
 	padding-bottom: 4%;
 }
+
+#top-banner {
+	/* background-attachment: fixed; */
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	position: relative;
+    	background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=863ffeea823f0ffb0885fe1a5e77e645&amp;auto=format&amp;fit=crop&amp;w=1500&amp;q=80";);
+
+}
+
 #topnavbar {
 	margin: 0;
-    /* background-attachment: fixed; */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-image: url(&quot;https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=863ffeea823f0ffb0885fe1a5e77e645&amp;auto=format&amp;fit=crop&amp;w=1500&amp;q=80&quot;);
+    
 }
+
 #topnavbar.affix {
 	position: fixed;
 	top: 0;
 	width: 100%;
 }
+
 .contactnumber {
 	font-weight: bold;
 	font-size: 20px;
