@@ -29,7 +29,7 @@ p {
 	padding-top: 1%;
 }
 #top-banner h1 {
-	color: #1F3E50;
+	color: #97b8cc;
 	font-weight: bold;
 	font-size: 13px;
 	font-family: 'Montserrat', sans-serif;
@@ -39,6 +39,12 @@ p {
 }
 #topnavbar {
 	margin: 0;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(&quot;https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=863ffeea823f0ffb0885fe1a5e77e645&amp;auto=format&amp;fit=crop&amp;w=1500&amp;q=80&quot;);
 }
 #topnavbar.affix {
 	position: fixed;
@@ -54,6 +60,8 @@ p {
 	padding-right: 40px;
 	padding-top: 20px;
 }
+
+
 
 /* NAVBAR */
 
@@ -88,6 +96,10 @@ p {
 }
 .nav a {
 	color: #ffffff !important;
+}
+
+.nav>li>a:hover {
+	text-decoration: none;
 }
 .navbar a:hover {
 	background-color: #578DB8 !important;
