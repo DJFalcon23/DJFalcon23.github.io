@@ -78,7 +78,7 @@ p {
 #topnavbar img {
 	position: absolute;
     	top: -25px;
-    	transition: top 1s;
+    	transition: top 1s, width .6s;
     	left: 213px;
 }
 
@@ -198,15 +198,16 @@ p {
 	
 	#topnavbar img {
     		position: absolute;
-		top:  60px;
-		transition: top 1s;
-		left: 67px;
-		width: 8%;
+		top:  -17px;
+		transition: top 1s, width .6s;
+		left: 27px;
+		width: 15%;
 	}
 	
 	#topnavbar.affix img {
-	   	left: 67px;
-	        top: 60px;
+	   	left: 24px;
+	        top: 1px;
+		width:10%
 }
 	
 	.contactnumber {
@@ -240,16 +241,16 @@ and (max-width: 1024px) {
 	
 	#topnavbar img {
     		position: absolute;
-		top: 60px;
-		transition: top 1s;
-		left: 94px;
-		width: 7%;
+		top: -11px;
+		transition: top 1s, width .6s;
+		left: 32px;
+		width: 12%;
 	}
 	
 	#topnavbar.affix img {
-	   	left: 94px;
-	        top: 60px;
-		width: 7%;
+	   	left: 32px;
+	        top: 1px;
+		width: 9%;
 	}
 	
 	.navbar-nav {
@@ -331,16 +332,16 @@ and (orientation: landscape) {
 	
 	#topnavbar img {
     		position: absolute;
-		top: 49px;
-		transition: top 1s;
-		left: 128px;
+		top: -10px;
+	    	transition: top 1s, width 1s;
+		left: 52px;
 		width: 8%;
 	}
 	
 	#topnavbar.affix img {
-	   	left: 128px;
-	        top: 49px;
-		width: 8%;
+	   	left: 44px;
+	        top: -1px;
+		width: 6%;
 	}
 	
 	.collapse.in {
@@ -363,5 +364,19 @@ and (min-width: 1824px) {
 	.nav li {
 		padding: 20px 60px 20px 60px;
 		font-size: 22px;
+	}
+	
+	#topnavbar img {
+    		
+		top: -13px;
+	    	transition: top 1s, width 1s;
+		
+		
+	}
+	
+	#topnavbar.affix img {
+	   	
+	        top: 1px;
+		width: 3.5%;
 	}
 }
