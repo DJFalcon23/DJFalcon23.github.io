@@ -1,0 +1,21 @@
+{
+  "name": "DJFalcon23.github.io",
+  "version": "1.0.0",
+  "description": "---\r blog_index: true\r ---",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJFalcon23/DJFalcon23.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DJFalcon23/DJFalcon23.github.io/issues"
+  },
+  "homepage": "https://github.com/DJFalcon23/DJFalcon23.github.io#readme"
+}
