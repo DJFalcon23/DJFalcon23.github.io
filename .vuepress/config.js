@@ -7,8 +7,8 @@ module.exports = {
             { text: 'Blogging', link: '/blogging/' },
 			{ text: 'Freelancing', link: '/freelancing/'},
 			{ text: 'Followed ',items: [
-          		{ text: 'Twitter', link: 'twitter.com/Djfalcon23'},
-				{ text: 'Github', link: 'github.com/djfalcon23' }
+          		{ text: 'Twitter', link: 'https://mobile.twitter.com/DJFalcon23'},
+				{ text: 'Github', link: 'https://www.github.com/djfalcon23' }
         		]}
         	],
         
