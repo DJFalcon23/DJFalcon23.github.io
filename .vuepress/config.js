@@ -12,5 +12,12 @@ module.exports = {
         		]}
         	],
         
-    }
+	},
+	configureWebpack: {
+		resolve: {
+		  alias: {
+			'@alias': '../Assets2'
+		  }
+		}
+	  }
 }
