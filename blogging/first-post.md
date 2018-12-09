@@ -9,7 +9,7 @@ description: A project on that uses a WiFi enabled microcontroller to serve a we
 
 In December of 2017, I came up with an idea of having a VR world stem from a microcontroller, the ESP8266. Around this time, Baltimore, my home city, was about to have it’s first Indie Web Camp, and I wanted to have a project to work on and show off. So, I started to brainstorm; “What would be cool, unique and interesting to me?” I wondered.
 
-![NodeMCU](http://derekfields.is/Assets2/NodeMCU_Pinout.png)
+![NodeMCU](https://derekfields.is/Assets2/NodeMCU_Pinout.png)
 
 *The pinout diagram of the NodeMCU, a ESP8266 based microcontroller board.*
 
@@ -29,7 +29,7 @@ A-Frame is based on top of HTML, making it simple to get started. But A-Frame is
 
 I had the main ingredients, now I had to make something out of them. The first step was to put the ESP8266 in access point and web server mode. I could now write the HTML that contains the A-Frame VR world and put it on the microcontroller. To do all of this I looked up some tutorials on YouTube, and looked up some documentation. What I found was:
 
-[![ESP8266 Web Sever tutorial](http://img.youtube.com/vi/Q0eUoFIXrWE/0.jpg)](http://www.youtube.com/watch?v=Q0eUoFIXrWE "ESP8266 Web Sever tutorial")
+[![ESP8266 Web Sever tutorial](https://img.youtube.com/vi/Q0eUoFIXrWE/0.jpg)](https://www.youtube.com/watch?v=Q0eUoFIXrWE "ESP8266 Web Sever tutorial")
 
 *‘ESP8266 WiFi Access Point Examples with the Arduino IDE’ By David Watts*
 
@@ -38,9 +38,9 @@ I had the main ingredients, now I had to make something out of them. The first s
 *and the documentation I found:* 
 
 
->## [Server - ESP8266 Arduino Core 2.4.0 documentation](http://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/server-examples.html)
+>## [Server - ESP8266 Arduino Core 2.4.0 documentation](https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/server-examples.html)
   
->[Setting up web a server on ESP8266 requires very little code and is surprisingly straightforward. This is thanks to…arduino-esp8266.readthedocs.io](http://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/server-examples.html)
+>[Setting up web a server on ESP8266 requires very little code and is surprisingly straightforward. This is thanks to…arduino-esp8266.readthedocs.io](https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/server-examples.html)
 
 
 ---
