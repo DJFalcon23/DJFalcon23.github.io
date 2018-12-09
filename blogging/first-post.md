@@ -9,7 +9,7 @@ description: A project on that uses a WiFi enabled microcontroller to serve a we
 
 In December of 2017, I came up with an idea of having a VR world stem from a microcontroller, the ESP8266. Around this time, Baltimore, my home city, was about to have it’s first Indie Web Camp, and I wanted to have a project to work on and show off. So, I started to brainstorm; “What would be cool, unique and interesting to me?” I wondered.
 
-![NodeMCU](./Assets2/NodeMCU_Pinout.png)
+![NodeMCU](@alias/NodeMCU_Pinout.png)
 
 *The pinout diagram of the NodeMCU, a ESP8266 based microcontroller board.*
 
@@ -18,7 +18,7 @@ I’m a hands-on guy, so, the project had to either have lots of visuals or invo
 Now, what would make it …unique and interesting to me?”, …I still needed to answer that part. I looked around my room to gain inspiration. My eyes locked on to a couple of Google Cardboards that I had laying in one of the many boxes of electronic stuff that I have in my room. “Google Cardboard..., VR…, ESP8266… Cool, cool, leaning towards interesting! Now how the hell can I combined those things?...”, I wondered. “ ‘A-Frame’! BOOM!!!”, I could use A-Frame to glue the those things together.
 
 
-![A-Frame’s Logo](./Assets2/aframe-logo.jpg)
+![A-Frame’s Logo](@alias/aframe-logo.jpg)
 
 Straight from A-Frame’s site:  
 
