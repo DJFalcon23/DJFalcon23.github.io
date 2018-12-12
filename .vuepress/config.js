@@ -16,7 +16,8 @@ module.exports = {
 	configureWebpack: {
 		resolve: {
 		  alias: {
-			'@alias': '../Assets2'
+			'@alias': '../Assets2',
+			'@alias_Home':'./Assets2'
 		  }
 		}
 	  }

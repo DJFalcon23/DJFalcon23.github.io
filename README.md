@@ -1,8 +1,13 @@
-# Outreach shame
-Outreach Shame is the place to expose every lousy outreach emails. It’s every online marketer’s worst nightmares. These emails are everything you shouldn’t do to promote your business & content. Everything’s kept anonymous for good fun above all.
+# Welcome To My Site  
+![Profile Pic](@alias_Home/ProtfolioProfilePic.jpg "A head shot of me.")
 
-## How can you contribute?
-Simple, forward us the shameful email to *outreachshame@snipcart.com* where it’ll be up for moderation. We kindly ask you to censor any personal information from the email before forwarding it to us. Once your submission is accepted by our team it’ll be published on the site outreachshame.com.
+ Hello & welcome, I'm Derek Fields.
+ I'm an educator & an Web Developer, but that hust what I mainly do for money currently. Some of the things I like to do out side of work stuff is bicycling through my city, meeting new cool people at events and meetups messing with electronics & MCUs, playing video games and watching anime. This site, 'DerekFields.is', as you can guess, is used to give the web an idea of who I am as person & not just a software developer. It's a bit bare at the moment. I will add more style and pages to DerekFields.is in time. 
 
-## How it does work?
-Once a submission is approved, a commit is pushed in this [GitHub repository](https://github.com/snipcart/outreachshame). We then use [Forestry](https://forestry.io/#/) to make content editing and publishing easier for our dumb marketing folks. Once the entry is published, the site is built and deployed automatically on Netlify.
+---
+
+## [My Blog](https://derekfields.is/blogging)
+My blog will detail my journy through tech and be log of my path to being a successful web developer.
+
+## [My Freelancing](https://derekfields.is/blogging)
+My freelance page will detail out my pricing and give an idea of my style and work.
