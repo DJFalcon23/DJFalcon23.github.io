@@ -2,6 +2,6 @@
 blog_index: true
 ---
 
-# Blog
+# Blogging
 
 <BlogIndex />
