@@ -9,5 +9,5 @@
 ## [My Blog](https://derekfields.is/blogging)
 My blog will detail my journy through tech and be a log of my path to being a successful web developer.
 
-## [My Freelancing](https://derekfields.is/blogging)
+## [My Freelancing](https://derekfields.is/freelancing)
 My freelance page will detail out my pricing and give an idea of my style and work.
