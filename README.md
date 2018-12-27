@@ -6,7 +6,7 @@
 
 ---
 
-## [My Blog](https://derekfields.is/blogging)
+## [My Blog](/blogging)
 My blog will detail my journy through tech and be a log of my path to being a successful web developer.
 
 ## [My Freelancing](/freelancing)
