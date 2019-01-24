@@ -1,18 +1,21 @@
 backend:
   name: github
-  repo: capriosa/vuepress-deploy
+  repo: djfalcon23/djfalcon23.github.io
   branch: master
 
 public_folder: ".vuepress/dist/"
-media_folder: ".vuepress/dist/assets/img"
+media_folder: "Assets2"
 
 collections:
-  - name: "doc"
-    label: "Doc"
-    folder: "docs"
+  - name: "Blog"
+    label: "blog"
+    folder: "blogging"
     create: true
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date",  name: "date", widgget: "string", default: "", format: "YYYY-MM-DD"}
+      - {label: "Discription", name: "discription", widgget: "string"} 
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
