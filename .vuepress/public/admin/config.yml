@@ -8,14 +8,14 @@ media_folder: "Assets2"
 
 collections:
   - name: "Blog"
-    label: "blog"
+    label: "New Post"
     folder: "blogging"
     create: true
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date",  name: "date", widgget: "date"}
-      - {label: "description", name: "discription", widgget: "string"} 
+      - {label: "Date",  name: "date", widget: "date"}
+      - {label: "description", name: "discription", widget: "string"} 
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
