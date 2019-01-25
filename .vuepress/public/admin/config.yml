@@ -14,8 +14,8 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date",  name: "date", widgget: "string", default: "", format: "YYYY-MM-DD"}
-      - {label: "Discription", name: "discription", widgget: "string"} 
+      - {label: "Date",  name: "date", widgget: "date", default: ""}
+      - {label: "description", name: "discription", widgget: "string"} 
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
