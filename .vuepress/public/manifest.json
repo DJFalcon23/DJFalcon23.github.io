@@ -2,12 +2,12 @@
     "name": "DerekFields.is",
     "short_name": "DerekFields",
     "icons": [{
-            "src": "Assets2\\favicomatic\\favicon-196x196.png",
+            "src": "Assets2/favicomatic/favicon-196x196.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "Assets2\\favicomatic\\mstile-310x310.png",
+            "src": "Assets2/favicomatic/mstile-310x310.png",
             "sizes": "512x512",
             "type": "image/png"
         }
