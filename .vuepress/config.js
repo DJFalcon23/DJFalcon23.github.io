@@ -2,7 +2,7 @@ module.exports = {
     title: 'DerekFields.is/...',
 	description:'Many cool things. Welcome to my site.',
 	head: [
-		['link', { rel: 'icon', href: `/logo.jpg` } ],
+		['link', { rel: 'icon', href: `/logo.png` } ],
 		['link', { rel: 'manifest', href: '/manifest.json' }],
 		['link', { rel: 'canonical', href: 'https://derekfields.is' }],
 		['meta', { name: 'theme-color', content: '#3eaf7c' }],
