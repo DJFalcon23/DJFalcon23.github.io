@@ -1,3 +1,13 @@
+---
+home: true
+pageClass: front
+actionText: Checkout My Blog →
+actionLink: /blogging/
+
+
+---
+
+
 # Welcome To My Site  
 ![Profile Pic](@alias_Home/ProtfolioProfilePic.jpg "A head shot of me.")
 
