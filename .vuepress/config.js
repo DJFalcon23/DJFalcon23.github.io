@@ -1,6 +1,6 @@
 module.exports = {
     title: 'DerekFields.is/...',
-	description:'Many cool things. Welcome to my site.',
+	description:'An Educator. A Software Developer. A Maker.',
 	head: [
 		['link', { rel: 'icon', href: `/logo.png` } ],
 		['link', { rel: 'manifest', href: '/manifest.json' }],
@@ -26,7 +26,7 @@ module.exports = {
             { text: "Home", link: '/' },
             { text: 'Blogging', link: '/blogging/' },
 			{ text: 'Freelancing', link: '/freelancing/'},
-			{ text: 'Followed ',items: [
+			{ text: 'Social',items: [
           		{ text: 'Twitter', link: 'https://mobile.twitter.com/DJFalcon23'},
 				{ text: 'Github', link: 'https://www.github.com/djfalcon23' }
         		]}

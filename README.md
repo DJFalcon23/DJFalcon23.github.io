@@ -3,10 +3,7 @@ home: true
 pageClass: front
 actionText: Checkout My Blog →
 actionLink: /blogging/
-
-
 ---
-
 
 # Welcome To My Site  
 ![Profile Pic](@alias_Home/ProtfolioProfilePic.jpg "A head shot of me.")
@@ -17,7 +14,7 @@ actionLink: /blogging/
 ---
 
 ## [My Blog](/blogging)
-My blog will detail my journy through tech and be a log of my path to being a successful web developer.
+My blog will detail my journey through tech and be a log of my path to being a successful web developer.
 
 ## [My Freelancing](/freelancing)
 My freelance page will detail out my pricing and give an idea of my style and work.
