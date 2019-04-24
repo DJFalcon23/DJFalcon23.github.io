@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'DerekFields.is/...',
+  title: 'DerekFields.is/...',
 	description:'An Educator. A Software Developer. A Maker.',
 	head: [
 		['link', { rel: 'icon', href: `/logo.png` } ],

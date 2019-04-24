@@ -4,7 +4,7 @@ backend:
   branch: master
 
 public_folder: ".vuepress/dist/"
-media_folder: "Assets2"
+media_folder: "../Assets2"
 
 collections:
   - name: "Blog"
