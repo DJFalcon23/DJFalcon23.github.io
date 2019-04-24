@@ -1,12 +1,12 @@
 ---
-title: Serenity Blog Post
+title: Serenity Information Crowd Control Drone
 date: '2019-04-24'
 description: The story of a unique drone I created during the 2019 Baltimore Hackathon.
-thumbnail: /.vuepress/dist/serenity-presentation.jpg
+thumbnail: /.vuepress/dist/baltimore-hackathon-promo.jpg
 ---
+# Serenity Information Crowd Control Drone
+
 So I won a hackathon again; this time it was the Sixth Baltimore Hackathon. 
-
-
 
 The uninitiated a hackathon is:
 
@@ -20,7 +20,7 @@ This Hackathon had three tracks or categories: Civic, Software, & Hardware. I en
 
 What is Serenity exactly; it is a quadrocopter with a flexible LED matrix attached its underside that’s used to relay short important messages.
 
-[image of Serenity]
+[image of Serenity] 
 
 
 
