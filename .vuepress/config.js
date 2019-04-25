@@ -1,8 +1,8 @@
 module.exports = {
-  title: 'DerekFields.is/...',
-	description:'An Educator. A Software Developer. A Maker.',
+	title: 'DerekFields.is/...',
+	description: 'An Educator. A Software Developer. A Maker.',
 	head: [
-		['link', { rel: 'icon', href: `/logo.png` } ],
+		['link', { rel: 'icon', href: `/logo.png` }],
 		['link', { rel: 'manifest', href: '/manifest.json' }],
 		['link', { rel: 'canonical', href: 'https://derekfields.is' }],
 		['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -18,27 +18,32 @@ module.exports = {
 		['meta', { name: 'msapplication-square310x310logo', content: '/icons/mstile-310x310.png' }],
 		['meta', { name: 'msapplication-TileImage', content: '/icons/mstile-144x144.png' }],
 		['meta', { name: 'msapplication-TileColor', content: '#3eaf7c' }],
-		['script', { type:"text/javascript", src: 'https://identity.netlify.com/v1/netlify-identity-widget.js'}]
+		['script', { type: "text/javascript", src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }]
 	],
 	serviceWorker: true,
-    themeConfig: {
+	themeConfig: {
         nav: [
-            { text: "Home", link: '/' },
-            { text: 'Blogging', link: '/blogging/' },
-			{ text: 'Freelancing', link: '/freelancing/'},
-			{ text: 'Social',items: [
-          		{ text: 'Twitter', link: 'https://mobile.twitter.com/DJFalcon23'},
-				{ text: 'Github', link: 'https://www.github.com/djfalcon23' }
-        		]}
-        	],
-        
+			{ text: "Home", link: '/' },
+			{ text: 'Blogging', link: '/blogging/' },
+			{ text: 'Freelancing', link: '/freelancing/' },
+			{
+				text: 'Social', items: [
+					{ text: 'Twitter', link: 'https://mobile.twitter.com/DJFalcon23' },
+					{ text: 'Github', link: 'https://www.github.com/djfalcon23' }
+				]
+			}
+		],
+		serviceWorker: {
+			updatePopup: true,
+		}
+
 	},
 	configureWebpack: {
 		resolve: {
-		  alias: {
-			'@alias': '../Assets2',
-			'@alias_Home':'./Assets2'
-		  }
+			alias: {
+				'@alias': '../Assets2',
+				'@alias_Home': './Assets2'
+			}
 		}
-	  }
+	}
 }
