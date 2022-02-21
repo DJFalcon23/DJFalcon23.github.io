@@ -27,9 +27,10 @@ module.exports = {
 			{ text: 'Blogging', link: '/blogging/' },
 			{ text: 'Freelancing', link: '/freelancing/' },
 			{
-				text: 'Social', items: [
+				text: 'Socials', items: [
 					{ text: 'Twitter', link: 'https://mobile.twitter.com/DJFalcon23' },
-					{ text: 'Github', link: 'https://www.github.com/djfalcon23' }
+					{ text: 'Github', link: 'https://www.github.com/djfalcon23' },
+					{ text: 'DevPost', link: 'https://devpost.com/Djfalcon23'}
 				]
 			}
 		],
