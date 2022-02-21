@@ -25,6 +25,7 @@ module.exports = {
         nav: [
 			{ text: "Home", link: '/' },
 			{ text: 'Blogging', link: '/blogging/' },
+			{ text: 'Resume', link: '/resume/' },
 			{ text: 'Freelancing', link: '/freelancing/' },
 			{
 				text: 'Socials', items: [
