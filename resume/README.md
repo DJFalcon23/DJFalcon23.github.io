@@ -4,7 +4,7 @@ Derek J. Fields Jr.
 
 [**https://www.linkedin.com/in/derek-j-fields**](https://www.linkedin.com/in/derek-j-fields)
 
-**[https://dev.to/djfalcon23**](https://dev.to/djfalcon23)
+[**https://dev.to/djfalcon23**](https://dev.to/djfalcon23)
 
 **Summary of Qualifications**
 
