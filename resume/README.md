@@ -1,6 +1,6 @@
 Derek J. Fields Jr.
 
-443-220-9669 | [Djfen101@gmail.com](mailto:Djfen101@gmail.com)
+[Djfen101@gmail.com](mailto:Djfen101@gmail.com)
 
 [**https://www.linkedin.com/in/derek-j-fields**](https://www.linkedin.com/in/derek-j-fields)
 
