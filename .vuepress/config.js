@@ -31,7 +31,8 @@ module.exports = {
 				text: 'Socials', items: [
 					{ text: 'Twitter', link: 'https://mobile.twitter.com/DJFalcon23' },
 					{ text: 'Github', link: 'https://www.github.com/djfalcon23' },
-					{ text: 'DevPost', link: 'https://devpost.com/Djfalcon23'}
+					{ text: 'DevPost', link: 'https://devpost.com/Djfalcon23'},
+					{ text: 'LinkedIn', link: 'https://www.linkedin.com/in/derek-j-fields'}
 				]
 			}
 		],
