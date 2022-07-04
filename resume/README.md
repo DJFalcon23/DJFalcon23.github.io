@@ -16,7 +16,7 @@ Skilled in full stack web development with experience in the ember.js, Vue.js, K
 
 **Skills**
 
-| JavaScript (Ember, Vue, Typescript) | Node.Js (Koa, pm2) | RaspberryPi |
+| JavaScript (Ember, Vue, React, Typescript) | Node.Js (Koa, pm2) | RaspberryPi |
 | --- | --- | --- |
 | Figma (Design &amp; Prototyping) | Linux/ Bash | Arduino |
 | Datadog | [Git](https://github.com/DJFalcon23) | Electronics |
